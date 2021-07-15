@@ -22,20 +22,20 @@ final User currentUser =
     User(id: 0, name: 'Current User', imageUrl: 'assets/images/greg.jpg');
 
 // USERS
-final User greg = User(id: 1, name: 'Greg', imageUrl: 'assets/images/greg.jpg');
+final User devclub = User(id: 1, name: 'Devclub', imageUrl: 'assets/images/greg.jpg');
 final User james =
-    User(id: 2, name: 'James', imageUrl: 'assets/images/james.jpg');
-final User john = User(id: 3, name: 'John', imageUrl: 'assets/images/john.jpg');
+    User(id: 2, name: 'ANCC', imageUrl: 'assets/images/james.jpg');
+final User john = User(id: 3, name: 'Rdv', imageUrl: 'assets/images/john.jpg');
 final User olivia =
-    User(id: 4, name: 'Olivia', imageUrl: 'assets/images/olivia.jpg');
-final User sam = User(id: 5, name: 'Sam', imageUrl: 'assets/images/sam.jpg');
+    User(id: 4, name: 'PAC', imageUrl: 'assets/images/olivia.jpg');
+final User sam = User(id: 5, name: 'OCS', imageUrl: 'assets/images/sam.jpg');
 final User sophia =
-    User(id: 6, name: 'Sophia', imageUrl: 'assets/images/sophia.jpg');
+    User(id: 6, name: 'Freshers', imageUrl: 'assets/images/sophia.jpg');
 final User steven =
-    User(id: 7, name: 'Steven', imageUrl: 'assets/images/steven.jpg');
+    User(id: 7, name: 'MTL Quiz', imageUrl: 'assets/images/steven.jpg');
 
 // FAVORITE CONTACTS
-List<User> favorites = [sam, steven, olivia, john, greg];
+List<User> favorites = [sam, steven, olivia, john, devclub];
 
 // EXAMPLE CHATS ON HOME SCREEN
 List<Message> chats = [
@@ -82,7 +82,7 @@ List<Message> chats = [
     unread: false,
   ),
   Message(
-    sender: greg,
+    sender: devclub,
     time: '11:30 AM',
     text: 'Hey, how\'s it going? What did you do today?',
     isLiked: false,
